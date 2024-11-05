@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --colerbgr: #2B773B;
+    --coler-text: black;
+    --coler-text2: #fff;
+    --coler-text3:#389D4E;
+    --coler-bgr2:#0BA245;
+    --coler-bgr3:#F4F4F4;
+}
+body {
+
+
+}
+.header{
+    background-color: var(--colerbgr);
+    color: var(--coler-text);
+    padding: 10px;
+    text-align: center;
+    
+}
+.inner-left{
+    display: flex;
+    color: var(--coler-text2);
+    font-weight: 500;
+    
+}
+.inner-left-left{
+    border-right: 1px solid var(--coler-text2);
+    padding-right: 10px;
+
+}
+.inner-left-ringht{
+    padding-left: 20px;
+}
+.inner-ringht{
+    display: flex;
+    flex-direction: row-reverse;
+   ;
+}
+.inner-ringht ul li a{
+    color: var(--coler-text2);
+    text-decoration: none;
+    
+    margin-left: 10px;
+   
+}
+.inner-ringht ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.inner-ringht ul{
+    margin-top: -20px;
+    float: right;
+}
+.inner-right-content .text-inner-right-content{
+    color: var(--coler-text3);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.inner-right-content span{
+    color: var(--coler-text1);
+    font-size: 18px;
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+    
+}
+.inner-content{
+    padding-top: 10px;
+}
+.irpn{
+    padding: 0;
+}
+.inner-ringht-phone-number .number-lienhe{
+    font-weight: 500;
+
+}
+.inner-ringht-phone-number .number-phone
+{
+    font-size: 18px;
+    color: red;
+}
+.inner-ringht-phone-number{
+    margin-left: -30px;
+}
+.menu{
+    background-color: var(--coler-bgr2);
+    height: 46px;
+}
+.menu-one{
+    background-color: var(--colerbgr);
+    color: var(--coler-text2);
+    height: 46px;
+    display: flex;
+}
+.menu-one span{
+    padding-left: 10px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.menu-trewcap{
+    font-weight: 700;
+    
+    line-height: 46px;
+
+}
+.menu-trewcap ul li a{
+    color: var(--coler-text2);
+    text-decoration: none;
+    margin-left: 10px;
+}
+.menu-trewcap ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+.list-menu-control{
+    
+}
+.list-menu-control ul li a{
+    text-decoration: none ;
+    color: black;
+    padding: 5px;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+.list-menu-control ul li{
+    border: 1px solid black;
+    
+    padding: 10px;
+}
+.list-product h1{
+    background: url(/img/bg-title.png);
+    background-size: cover;
+    font-size: 20pt;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+.list-product{
+    background-color: var(--coler-bgr3);
+    text-align: center;
+    
+}
+
